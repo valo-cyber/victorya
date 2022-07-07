@@ -1,0 +1,252 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.hero{
+    min-height: 90vh;
+    width: 100%;
+    background-image: url(./image/img4.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+/* .navbar{
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 2rem;
+} */
+.navbar-nav{
+    margin-left: 8rem;
+}
+.navbar-nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 40px;
+    color: gray;
+}
+a :hover{
+    color: navy;
+}
+.hero-text{
+    /* padding-top: 100rem; */
+    padding: 5rem;
+}
+.button1{
+    background-color: rgb(233, 153, 84);
+    border: none;
+    border-radius: 0;
+    padding: 10px 20px;
+    /* font-weight: 600; */
+    /* box-shadow: 2px 2px 4px 3px rgb(231, 73, 58); */
+    color: white;
+}
+/* .button1:hover{
+    background-color:  rgb(231, 73, 58);
+} */
+.button2{
+    /* border: none; */
+    padding: 0px 20px;
+}
+.button3{
+    background-color: rgb(233, 153, 84);
+    border: none;
+    border-radius: 50%;
+    /* font-weight: 600; */
+    width: 50px;
+    height: 50px;
+    /* box-shadow: 2px 2px 4px 3px rgb(231, 73, 58);  */
+}
+.section1{
+    background-image: url(./image/img5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    min-height: 1000px;
+    background-color: rgba(255,  255, 255, 0.864);
+    padding-top: 5rem;
+}
+.section1 .div1{
+    /* padding-top: 4rem;
+    padding-bottom: 4rem; */
+    margin-top: 5rem;
+}
+.img-fluid{
+    width: 25rem;
+    height: 35rem;
+    /* margin-left: 3rem; */
+    border-radius: 40px 0 40px 0;
+    /* box-shadow: 2px 2px 4px 3px #00000052; */
+}
+.section1 .div-text{
+    margin-top: 5rem;
+}
+.section1 .div-text h3{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 20px;
+}
+.div2{
+    margin-top: 10rem;
+}
+.position{
+    position: relative;
+}
+.image1{
+    height: 9rem;
+    width: 10rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 430px;
+}
+.image2{
+    height: 11rem;
+    width: 12rem;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 175px;
+    left: 235px;
+}
+.image3{
+    height: 10rem;
+    width: 12rem;
+    border-radius: 10px;
+    position: absolute;
+    right: 430px;
+    top: 147px;
+}
+.image4{
+    height: 9rem;
+    width: 10rem;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 25px;
+    left: 237px;
+}
+.section2{
+    background-image: url(./image/img18.jpg);
+    /* max-width: 100%; */
+    height: 20rem;
+    background-size: 90%;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-top: 5rem;
+    /* background-color: rgba(16, 16, 88, 0.285); */
+   /* border-radius: 90px;  */
+}
+.section2 h3{
+    font-size: 25px;
+    font-weight: bolder;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+.section2 p{
+    padding-top: 20px;
+    text-align: center;  
+    color: white;
+}
+.section3 h3{
+    font-size: 25px;
+    font-weight: bolder;
+    /* padding-top: 50px; */
+    text-align: center;
+    color: navy;
+    padding-left: 2rem;
+}
+.section3 p{
+    padding-left: 2rem;
+    color: black;
+    text-align: center;   
+}
+/* .image5{
+    height: 15rem;
+    width: 20rem;
+    border-radius: 12px;
+} */
+.ham{
+    color: blue;
+    font-weight: bold;
+    padding-left: .5rem;
+}
+.money{
+    padding-left: 10rem;
+    color: orangered;
+}
+.money1{
+    padding-left: 12rem;
+    color: orangered;
+}
+.money2{
+    padding-left: 13rem;
+    color: orangered;
+}
+.money3{
+    padding-left: 11rem;
+    color: orangered;
+}
+.image6{
+    height: 15rem;
+}
+/* .abas{
+    width: 50%;
+    margin-left: 15rem;
+} */
+.overlay{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.397);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+.try:hover .overlay{
+    height: 100%;
+}
+.text-overlay{
+    top: 50%;
+    position: absolute;
+}
+.me{
+    margin-left: 13rem;
+    margin-bottom: 100rem;
+}
+.hero1{
+    min-height: 20vh;
+    /* width: 100%; */
+    background-image: url(./image/img13.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 1%;
+}
+.navlink1{
+    margin-left: 2rem;
+}
+.navlink1 a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 20px;
+    color: gray;
+}
+@media  (max-width:1400px) {
+    .position{
+        display: none;
+    }
+}
+@media (max-width: 994px) {
+    .love{
+    box-sizing: content-box;
+    }
+    .tip{
+        margin-bottom: 5rem;
+    }
+}
